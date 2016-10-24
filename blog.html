@@ -1,0 +1,202 @@
+<html>
+<head>
+	<meta charset="UTF-8"></meta>
+	<title>Blog do Lacerda</title>
+
+	<style>
+		body>header>h1 {
+			font-family: sans-serif;
+			text-align: center;
+			color: #000060;
+		}
+
+		section article header h4 {
+			font-family: "Times New Roman", serif;
+			font-size: 1.5em;
+			font-style: italic;
+		}
+
+		section article header {
+			text-align: center;
+		}
+
+		nav.menu_categorias {
+			text-align: center;
+			background-color: #010160;
+			border-radius: 5px;
+		}
+
+		nav.menu_categorias a {
+			text-decoration: none;
+			color: #FFFFFF;
+			margin-right: 20px;
+			margin-left: 20px;
+			font-size: 1.3em;
+		}
+
+		nav.menu_categorias a:hover {
+			color: #AEAEAE;
+		}
+
+		article {
+			border-bottom: 1px solid black;
+		}
+
+		article:last-child {
+			border-bottom: none;
+		}
+
+
+		article header a {
+			font-family: sans-serif;
+			color: #0101AA;
+			text-decoration: none;
+		}
+
+
+		article header a:hover {
+			font-family: sans-serif;
+			font-style: italic;
+		}
+
+		article header div {
+			text-align: left;
+		}
+
+		a.a_autor {
+			margin-left: 20px;
+		}
+
+		section.posts {
+			margin-top: 50px;
+		}
+
+		article div {
+			text-align: center;
+		}
+
+		article img {
+			width: 100%;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Blog do Lacerda</h1>
+	</header>
+<nav class="menu_categorias">
+<a href="humor.html">Humor</a>
+<a href="news.html">Notícias</a>
+<a href="tec.html">Artigos Técnicos</a>
+<a href="stuff.html">Coisas aleatórias</a>
+</ul>
+</nav>
+
+<section class="posts">
+<article>
+	<header>
+		<h4>Artigo de Humor</h4>
+		<div>
+		<a class="a_categoria" href="humor.html">Humor</a></span>
+		<a class="a_autor" href="joao.html">João</a></span>
+		</div>
+	</header>
+	<div>
+	<img src="http://lorempixel.com/500/300/cats/1" alt="Um gato aleatório">
+	</div>
+	<p>Fermentum a a rhoncus interdum parturient sapien vestibulum bibendum dictumst tempus suspendisse suspendisse malesuada torquent mattis at a nibh adipiscing dui ad dignissim natoque.Arcu duis congue curabitur sapien a adipiscing a aliquet quisque parturient scelerisque ut primis parturient lorem dapibus pharetra orci diam.
+	</p>
+</article>
+<article>
+	<header>
+		<h4>Artigo aleatório</h4>
+		<div>
+		<a class="a_categoria"href="stuff.html">Aleatórias</a>
+		<a class="a_autor" href="joao.html">João</a>
+		</div>
+	</header>
+	<div>
+	<img src="http://lorempixel.com/500/300" alt="Um gato aleatório">
+	</div>
+	<p>Fermentum a a rhoncus interdum parturient sapien vestibulum bibendum dictumst tempus suspendisse suspendisse malesuada torquent mattis at a nibh adipiscing dui ad dignissim natoque.Arcu duis congue curabitur sapien a adipiscing a aliquet quisque parturient scelerisque ut primis parturient lorem dapibus pharetra orci diam.
+	</p>
+</article>
+<article>
+	<header>
+		<h4>Notícias</h4>
+		<div>
+		<a class="a_categoria" href="news.html">Notícias</a>
+		<a class="a_autor" href="mario.html">Mario</a>
+		</div>
+	</header>
+	<p>Fermentum a a rhoncus interdum parturient sapien vestibulum bibendum dictumst tempus suspendisse suspendisse malesuada torquent mattis at a nibh adipiscing dui ad dignissim natoque.Arcu duis congue curabitur sapien a adipiscing a aliquet quisque parturient scelerisque ut primis parturient lorem dapibus pharetra orci diam.
+	</p>
+	<p>Fermentum a a rhoncus interdum parturient sapien vestibulum bibendum dictumst tempus suspendisse suspendisse malesuada torquent mattis at a nibh adipiscing dui ad dignissim natoque.Arcu duis congue curabitur sapien a adipiscing a aliquet quisque parturient scelerisque ut primis parturient lorem dapibus pharetra orci diam.
+	</p>
+	<p>Fermentum a a rhoncus interdum parturient sapien vestibulum bibendum dictumst tempus suspendisse suspendisse malesuada torquent mattis at a nibh adipiscing dui ad dignissim natoque.Arcu duis congue curabitur sapien a adipiscing a aliquet quisque parturient scelerisque ut primis parturient lorem dapibus pharetra orci diam.
+	</p>
+</article>
+<article>
+	<header>
+		<h4>Artigo de Humor 2</h4>
+		<div>
+		<a class="a_categoria" href="humor.html">Humor</a>
+		<a class="a_autor" href="marcos.html">Marcos</a>
+		</div>
+	</header>
+	<p>Fermentum a a rhoncus interdum parturient sapien vestibulum bibendum dictumst tempus suspendisse suspendisse malesuada torquent mattis at a nibh adipiscing dui ad dignissim natoque.Arcu duis congue curabitur sapien a adipiscing a aliquet quisque parturient scelerisque ut primis parturient lorem dapibus pharetra orci diam.
+	</p>
+</article>
+</section>
+
+<aside>
+<form action="enviar_contato.html" method="POST">
+	<input type="text" name="nome" id="id_name" placeholder="Nome"><br>
+	<input type="email" name="email" id="id_email" placeholder="E-mail"><br>
+	<input type="text" name="cidade" id="id_cidade" placeholder="Cidade"><br>
+	<select name="estado">
+		<optgroup label="Norte">
+		<option>AC</option> 	 
+		<option>AM</option> 	 
+		<option>RO</option> 	 
+		<option>RR</option> 	 
+		<option>TO</option>
+		<option>AP</option> 	 
+		<option>PA</option> 	 
+		</optgroup>
+		<optgroup label="Nordeste">
+		<option>AL</option> 	 
+		<option>BA</option> 	 
+		<option>CE</option> 	 
+		<option>PB</option> 	 
+		<option>PE</option> 	 
+		<option>PI</option> 	 
+		<option>RN</option> 	 
+		<option>SE</option> 	 
+		<option>MA</option> 	 
+		</optgroup>
+		<optgroup label="Centro-oeste">
+		<option>DF</option> 	 
+		<option>GO</option> 	 
+		<option>MT</option> 	 
+		<option>MS</option> 	 
+		</optgroup>
+		<optgroup label="Sudeste">
+		<option>ES</option> 	 
+		<option>MG</option> 	 
+		<option>RJ</option> 	 
+		<option>SP</option> 	 
+		</optgroup>
+		<optgroup label="Sul">
+		<option>PR</option> 	 
+		<option>RS</option> 	 
+		<option>SC</option> 	 
+		</optgroup>
+	</select><br>
+	<label><input type="checkbox" name="newsletter"> Aceita receber nossa newsletter</label><br>
+	<input type="submit" value="Enviar">
+</form>
+</aside>
+</body>
+</html>
